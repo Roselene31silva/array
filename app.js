@@ -14,12 +14,14 @@ livrosCategoria.push("aventura")
 livrosCategoria.push("infantil")
 console.dir(livrosCategoria)
 
-document.getElementById("conteudo").innerHTML = livrosCategoria[0] + " - "
-document.getElementById("conteudo").innerHTML += livrosCategoria[1] + " - "
-document.getElementById("conteudo").innerHTML += livrosCategoria[2] + " - "
-document.getElementById("conteudo").innerHTML += livrosCategoria[3] + " - "
-document.getElementById("conteudo").innerHTML += livrosCategoria[4] + " - "
-document.getElementById("conteudo").innerHTML += livrosCategoria[5] 
+document.getElementById("conteudo").innerHTML = "<ul>"
+document.getElementById("conteudo").innerHTML += "<li>" + livrosCategoria[0] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + livrosCategoria[1] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + livrosCategoria[2] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + livrosCategoria[3] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + livrosCategoria[4] + "</li>"
+document.getElementById("conteudo").innerHTML += "<li>" + livrosCategoria[5] + "</li>"
+document.getElementById("conteudo").innerHTML += "</ul>" 
 
 
 
